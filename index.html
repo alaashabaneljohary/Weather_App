@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>Weather App </title>
+    <!-- Install Awesome  -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Install Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Install CSS -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="container">
+        <div class="search-container">
+          <input type="text" placeholder="Enter a city name" id="city" >
+          <button id="search-btn">Search</button>
+        </div>
+       <div class="tmp_card py-5">
+        <div id="Tmp_header">
+            <p id="day">Sunday</p>
+            <p id="today-date">30 June</p>
+        </div>
+        <div class="temp-datails">
+            <p id="location" class="text-start">Cairo</p>
+            <div class="d-flex justify-content-between my-4">
+              <div class="pt-3">
+                <h2 id="today-degree" class="d-inline-block">28</h2><h2 class="d-inline-block"><sup>o</sup>C</h2>
+              </div>
+              <img id="today-icon" width="90" src="">
+            </div>
+            <p id="today-description" class="text-start">Sunny</p>
+            <div class="details">
+              <i class="px-1 fas fa-umbrella pr-1"></i>
+              <span id="humidty">58</span> <span>%</span>
+              <i class="px-1 fas fa-wind pl-3 pr-1"></i>
+              <span id="wind">6.1</span> <span>km/h</span>
+              <i class="px-1 far fa-compass pl-3 pr-1"></i>
+              <span id="compass">ENE</span>
+            </div>
+          </div>
+       </div>
+      </div>
+    </div>
+    <!-- script SRC -->
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
